@@ -1,0 +1,38 @@
+.div {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  gap: 210px;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.img {
+  width: 150px;
+  height: 100px;
+}
+.div > div > h2 {
+  font-size: 34px;
+  font-weight: bold;
+}
+.div > div {
+  line-height: 55px;
+}
+.div > div:last-child {
+  margin-top: 25px;
+}
+
+@media all and (min-width: 250px) and (max-width: 1050px) {
+ .div{
+  gap: 40px;
+ }
+ .img {
+  display: block;
+  margin: auto;
+}
+}
+@media all and (min-width: 1250px) and (max-width: 1500px){
+  .div{
+    gap: 100px;
+  }
+}

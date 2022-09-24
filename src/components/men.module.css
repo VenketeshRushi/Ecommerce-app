@@ -1,0 +1,68 @@
+.container {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  row-gap: 30px;
+  margin: auto;
+  margin-top: 25px;
+}
+.container > div {
+  width: 85%;
+  margin: auto;
+}
+.container h5{
+  text-decoration: none;
+  color: #56a323;
+  text-decoration-line:underline;
+  text-decoration-color: white;
+}
+.container img {
+  width: 100%;
+  border-radius: 10px;
+}
+.container>div>div{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.container button {
+  background-color: #295D09;
+  opacity: 90%;
+  color: white;
+  border-radius: 5px;
+  border: #69AB3D;
+  padding: 5px 10px;
+  display: none;
+}
+.container > div:hover button {
+ display: flex;
+}
+.container h5{
+    margin-top: 13px;
+    text-align: center;
+}
+.ButttononProductDetails{
+  background-color: #295D09;
+  color: white;
+  border-radius: 5px;
+  border: #69AB3D;
+  padding: 5px 10px;
+}
+.container1{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.container1 h5{
+  text-decoration: none;
+  color: #56a323;
+  text-decoration-line:underline;
+  text-decoration-color: white;
+}
+.container1 img{
+  width: 200px;
+  height: 250px;
+  border-radius: 5px;
+}
+
+
